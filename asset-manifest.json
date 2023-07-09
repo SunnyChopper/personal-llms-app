@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/personal-llms-app/static/css/main.e6c13ad2.css",
-    "main.js": "/personal-llms-app/static/js/main.f44559a8.js",
+    "main.js": "/personal-llms-app/static/js/main.4f4edd93.js",
     "static/js/787.689c8e2c.chunk.js": "/personal-llms-app/static/js/787.689c8e2c.chunk.js",
     "index.html": "/personal-llms-app/index.html",
     "main.e6c13ad2.css.map": "/personal-llms-app/static/css/main.e6c13ad2.css.map",
-    "main.f44559a8.js.map": "/personal-llms-app/static/js/main.f44559a8.js.map",
+    "main.4f4edd93.js.map": "/personal-llms-app/static/js/main.4f4edd93.js.map",
     "787.689c8e2c.chunk.js.map": "/personal-llms-app/static/js/787.689c8e2c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.f44559a8.js"
+    "static/js/main.4f4edd93.js"
   ]
 }
