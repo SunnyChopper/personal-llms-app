@@ -128,9 +128,9 @@ class DataService {
         // TODO: Update the logic to fetch data from Firebase instead of returning dummy data
         for (let action of llmActions) {
             try {
-                const promptResponse = await fetch(`/actions/prompts/${action.id}.md`);
+                const promptResponse = await fetch(`${process.env.PUBLIC_URL}/actions/prompts/${action.id}.md`);
                 action.prompt = await promptResponse.text();
-                const instructionsResponse = await fetch(`/actions/formatInstructions/${action.id}.md`);
+                const instructionsResponse = await fetch(`${process.env.PUBLIC_URL}/actions/formatInstructions/${action.id}.md`);
                 action.formatInstructions = await instructionsResponse.text();
             } catch (err) {
                 console.error(`Error reading file from disk: ${err}`);
